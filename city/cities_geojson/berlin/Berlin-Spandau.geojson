@@ -1,0 +1,626 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-10-16T20:50:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/22278332",
+        "building": "roof",
+        "building:levels": "2",
+        "layer": "2",
+        "roof:material": "glass",
+        "roof:shape": "skillion"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.1963098,
+              52.534865
+            ],
+            [
+              13.1929836,
+              52.5354165
+            ],
+            [
+              13.192938,
+              52.5353148
+            ],
+            [
+              13.1962643,
+              52.5347634
+            ],
+            [
+              13.1963098,
+              52.534865
+            ]
+          ]
+        ]
+      },
+      "id": "way/22278332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/281020817",
+        "building": "roof",
+        "layer": "3",
+        "roof:material": "glass",
+        "roof:shape": "round"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.1988581,
+              52.5343293
+            ],
+            [
+              13.1962643,
+              52.5347634
+            ],
+            [
+              13.192938,
+              52.5353148
+            ],
+            [
+              13.1928802,
+              52.5351858
+            ],
+            [
+              13.1960188,
+              52.5346648
+            ],
+            [
+              13.1982121,
+              52.5343015
+            ],
+            [
+              13.1987904,
+              52.5342021
+            ],
+            [
+              13.1988581,
+              52.5343293
+            ]
+          ]
+        ]
+      },
+      "id": "way/281020817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/281020818",
+        "building": "roof",
+        "layer": "3",
+        "roof:material": "glass",
+        "roof:shape": "round"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.1962643,
+              52.5347634
+            ],
+            [
+              13.1988581,
+              52.5343293
+            ],
+            [
+              13.1989448,
+              52.5344922
+            ],
+            [
+              13.1963383,
+              52.5349285
+            ],
+            [
+              13.1963098,
+              52.534865
+            ],
+            [
+              13.1962643,
+              52.5347634
+            ]
+          ]
+        ]
+      },
+      "id": "way/281020818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/22907584",
+        "cycleway": "track",
+        "highway": "tertiary",
+        "lanes": "4",
+        "lanes:forward": "2",
+        "layer": "-1",
+        "lit": "yes",
+        "maxheight": "4",
+        "maxspeed": "50",
+        "name": "Am Bahnhof Spandau",
+        "name:etymology:wikidata": "Q654980",
+        "name:etymology:wikipedia": "de:Bahnhof Berlin-Spandau",
+        "postal_code": "13597",
+        "sidewalk": "both",
+        "source:maxspeed": "DE:urban",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1949182,
+            52.5346476
+          ],
+          [
+            13.1951752,
+            52.5352461
+          ]
+        ]
+      },
+      "id": "way/22907584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/26277209",
+        "highway": "footway",
+        "indoor": "yes",
+        "layer": "-2",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1960465,
+            52.5345277
+          ],
+          [
+            13.1961059,
+            52.5346612
+          ],
+          [
+            13.1961712,
+            52.5348078
+          ],
+          [
+            13.1962393,
+            52.5349608
+          ],
+          [
+            13.1962457,
+            52.5349752
+          ],
+          [
+            13.1962825,
+            52.535058
+          ]
+        ]
+      },
+      "id": "way/26277209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/48038656",
+        "highway": "pedestrian",
+        "indoor": "yes",
+        "layer": "-1",
+        "level": "0",
+        "lit": "yes",
+        "noname": "yes",
+        "surface": "concrete",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1984707,
+            52.5346843
+          ],
+          [
+            13.198429,
+            52.5345963
+          ],
+          [
+            13.1983558,
+            52.5344419
+          ],
+          [
+            13.1983543,
+            52.5344385
+          ],
+          [
+            13.1982975,
+            52.5343185
+          ],
+          [
+            13.1982279,
+            52.5341715
+          ]
+        ]
+      },
+      "id": "way/48038656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/48038658",
+        "conveying": "forward",
+        "highway": "steps",
+        "incline": "up",
+        "level": "0;1",
+        "lit": "yes",
+        "note": "fährt nur zum Bahnsteig hoch, keine Gegenrichtung, nicht umkehrbahr, daher oneway=yes!"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1982807,
+            52.5344508
+          ],
+          [
+            13.1980612,
+            52.5344886
+          ]
+        ]
+      },
+      "id": "way/48038658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363627432",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "layer": "-1",
+        "level": "0;0.5",
+        "ramp": "no",
+        "step_count": "15"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1985853,
+            52.5344138
+          ],
+          [
+            13.1987445,
+            52.5343865
+          ]
+        ]
+      },
+      "id": "way/363627432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363627442",
+        "highway": "footway",
+        "level": "1",
+        "lit": "yes",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1980451,
+            52.5344538
+          ],
+          [
+            13.1980612,
+            52.5344886
+          ],
+          [
+            13.1980771,
+            52.5345232
+          ]
+        ]
+      },
+      "id": "way/363627442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/410233668",
+        "highway": "steps",
+        "incline": "up",
+        "indoor": "yes",
+        "layer": "-2",
+        "level": "0;1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1960885,
+            52.5348208
+          ],
+          [
+            13.1958585,
+            52.5348587
+          ]
+        ]
+      },
+      "id": "way/410233668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/410233673",
+        "highway": "footway",
+        "level": "1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1958695,
+            52.5348835
+          ],
+          [
+            13.1958585,
+            52.5348587
+          ],
+          [
+            13.1958386,
+            52.5348139
+          ]
+        ]
+      },
+      "id": "way/410233673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/424058345",
+        "highway": "footway",
+        "indoor": "yes",
+        "level": "0",
+        "lit": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1985161,
+            52.534426
+          ],
+          [
+            13.1985853,
+            52.5344138
+          ]
+        ]
+      },
+      "id": "way/424058345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/424058346",
+        "highway": "footway",
+        "indoor": "yes",
+        "level": "0",
+        "lit": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1983543,
+            52.5344385
+          ],
+          [
+            13.1982807,
+            52.5344508
+          ]
+        ]
+      },
+      "id": "way/424058346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/424058352",
+        "highway": "footway",
+        "indoor": "yes",
+        "layer": "-2",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1961712,
+            52.5348078
+          ],
+          [
+            13.1960885,
+            52.5348208
+          ]
+        ]
+      },
+      "id": "way/424058352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/424058355",
+        "highway": "footway",
+        "indoor": "yes",
+        "level": "0",
+        "lit": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1983558,
+            52.5344419
+          ],
+          [
+            13.1983994,
+            52.5344346
+          ],
+          [
+            13.1984371,
+            52.5344279
+          ]
+        ]
+      },
+      "id": "way/424058355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/424058358",
+        "highway": "pedestrian",
+        "indoor": "yes",
+        "level": "0",
+        "lit": "yes",
+        "noname": "yes",
+        "surface": "concrete",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1983836,
+            52.5341442
+          ],
+          [
+            13.1984542,
+            52.5342915
+          ],
+          [
+            13.1984615,
+            52.5343077
+          ],
+          [
+            13.1985161,
+            52.534426
+          ],
+          [
+            13.1985194,
+            52.5344346
+          ],
+          [
+            13.1985823,
+            52.5345713
+          ],
+          [
+            13.1985885,
+            52.5345838
+          ],
+          [
+            13.1986212,
+            52.5346579
+          ]
+        ]
+      },
+      "id": "way/424058358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/441464379",
+        "highway": "footway",
+        "indoor": "yes",
+        "level": "1",
+        "lit": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1983702,
+            52.5344391
+          ],
+          [
+            13.1984371,
+            52.5344279
+          ]
+        ]
+      },
+      "id": "way/441464379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/441464390",
+        "highway": "footway",
+        "indoor": "yes",
+        "level": "1",
+        "lit": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1983861,
+            52.5344728
+          ],
+          [
+            13.1983702,
+            52.5344391
+          ],
+          [
+            13.1983522,
+            52.5344037
+          ]
+        ]
+      },
+      "id": "way/441464390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/441464391",
+        "highway": "footway",
+        "indoor": "yes",
+        "level": "0",
+        "lit": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1985194,
+            52.5344346
+          ],
+          [
+            13.1984076,
+            52.5344534
+          ],
+          [
+            13.1983994,
+            52.5344346
+          ]
+        ]
+      },
+      "id": "way/441464391"
+    }
+  ]
+}
