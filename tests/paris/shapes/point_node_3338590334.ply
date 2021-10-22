@@ -1,0 +1,5 @@
+ply
+format binary_little_endian 1.0
+comment Written by Yocto/GL
+comment https://github.com/xelatihy/yocto-gl
+end_header
