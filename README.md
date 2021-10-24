@@ -67,15 +67,18 @@ However, other cities of interest can be reconstructed by downloading the GeoJSO
 #### Some results
 Amsterdam
 ![Amsterdam](images/amsterdam.jpg)
-![test image size]<img src="images/amsterdam.jpg" width="400" height="600">
+![test image size]<img src="images/amsterdam.jpg" width="400" height="400">
 
-Berlin 
-(images/berlin.jpg)
+Berlin
+![Berlin](images/berlin.jpg)
+![test image size]<img src="images/berlin.jpg" width="400" height="400">
 
 London
-(images/london.jpg)
+![London](images/london.jpg)
+![test image size]<img src="images/london.jpg" width="400" height="400">
 
 Rome 
-(images/rome.jpg)
+![Rome](images/rome.jpg)
+![test image size]<img src="images/rome.jpg" width="400" height="400">
 
 
