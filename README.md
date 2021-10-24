@@ -65,16 +65,16 @@ Currently, the following cities can be directly visualized in the GUI without cr
 However, other cities of interest can be reconstructed by downloading the GeoJSON data information of the desired area through [Overpass Turbo](https://overpass-turbo.eu) and positioning the file(s) in a dedicated folder at the path `city/cities_geojson/`
 
 #### Some results
-Amsterdam
-![Amsterdam]<img src="images/amsterdam.jpg" width="458" height="457">
+Amsterdam  <br />
+<img src="images/amsterdam.jpg" width="458" height="457">
 
-Berlin
-![Berlin]<img src="images/berlin.jpg" width="460" height="461">
+Berlin  <br />
+<img src="images/berlin.jpg" width="460" height="461">
 
-London
-![London]<img src="images/london.jpg" width="459" height="459">
+London  <br />
+<img src="images/london.jpg" width="459" height="459">
 
-Rome 
-![Rome]<img src="images/rome_all_morning.jpg" width="455" height="381">
+Rome  <br />
+<img src="images/rome.jpg" width="455" height="381">
 
 
