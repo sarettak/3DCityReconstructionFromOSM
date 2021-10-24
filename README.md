@@ -1,5 +1,5 @@
 # 3D City Reconstruction From OpenStreetMap Data
-The developed application is an open-source tool, based on [Yocto/GL] (https://github.com/xelatihy/yocto-gl) library, suitable to reconstruct cities at scale from OpenStreetMap data in hundreds of seconds. Additionally, [Earcut] (https://github.com/mapbox/earcut.hpp) (for triangulation) and [JSON] (https://github.com/nlohmann/json) (for parsing tags from GeoJSON files) are employed in the system. 
+The developed application is an open-source tool, based on [Yocto/GL](https://github.com/xelatihy/yocto-gl) library, suitable to reconstruct cities at scale from OpenStreetMap data in hundreds of seconds. Additionally, [Earcut](https://github.com/mapbox/earcut.hpp) (for triangulation) and [JSON] (https://github.com/nlohmann/json) (for parsing tags from GeoJSON files) are employed in the system. 
 
 ## Prerequisites
 The application requires a C++17 compiler:
@@ -32,8 +32,8 @@ Launch the application:
 ```
 
 in which:
-* '''./city/cities_geojson/name''' specifies the path to the GeoJSON file(s) of the desired city to reconstruct (identified by 'name')
-* '''./tests/name/name.json''' defines the path for saving the scene in a format understandable by Yocto/GL library
+* `./city/cities_geojson/name` specifies the path to the GeoJSON file(s) of the desired city to reconstruct (identified by `name`)
+* `./tests/name/name.json` defines the path for saving the scene in a format understandable by Yocto/GL library
 
 #### Example
 ```
@@ -46,8 +46,8 @@ The view of the reconstructed 3D city reconstructed is displayed in the GUI and 
 ./bin/ysceneitraces tests/name/name.json -o name.png   
 ```
 in which:
-* '''./tests/name/name.json''' specifies the path to the scene of the city (identified by 'name') in a format understandable by Yocto/GL library
-* '''name.png''' assigns the name 'name' to the image representing the generated city
+* `./tests/name/name.json` specifies the path to the scene of the city (identified by `name`) in a format understandable by Yocto/GL library
+* `name.png` assigns the name `name` to the image representing the generated city
 
 #### Example
 ```
@@ -62,11 +62,11 @@ Currently, the following cities can be directly visualized in the GUI without cr
 * Rome 
 * Tokyo
 
-However, other cities of interest can be reconstructed by downloading the GeoJSON data information of the desired area through [Overpass Turbo] (https://overpass-turbo.eu) and positioning the file(s) in a dedicated folder at the path city/cities_geojson/ 
+However, other cities of interest can be reconstructed by downloading the GeoJSON data information of the desired area through [Overpass Turbo](https://overpass-turbo.eu) and positioning the file(s) in a dedicated folder at the path `city/cities_geojson/`
 
 #### Some results
-Amsterdam 
-(images/amsterdam.jpg)
+![Example materials: matte, plastic, metal, glass, subsurface, normal mapping](images/features1.png)
+![Amsterdam](images/amsterdam.jpg)
 
 Berlin 
 (images/berlin.jpg)
