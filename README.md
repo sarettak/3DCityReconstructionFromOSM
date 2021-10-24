@@ -1,5 +1,5 @@
 # 3D City Reconstruction From OpenStreetMap Data
-The developed application is an open-source tool, based on [Yocto/GL](https://github.com/xelatihy/yocto-gl) library, suitable to reconstruct cities at scale from OpenStreetMap data in hundreds of seconds. Additionally, [Earcut](https://github.com/mapbox/earcut.hpp) (for triangulation) and [JSON] (https://github.com/nlohmann/json) (for parsing tags from GeoJSON files) are employed in the system. 
+The developed application is an open-source tool, based on [Yocto/GL](https://github.com/xelatihy/yocto-gl) library, suitable to reconstruct cities at scale from OpenStreetMap data in hundreds of seconds. Additionally, [Earcut](https://github.com/mapbox/earcut.hpp) (for triangulation) and [JSON](https://github.com/nlohmann/json) (for parsing tags from GeoJSON files) are employed in the system. 
 
 ## Prerequisites
 The application requires a C++17 compiler:
@@ -65,8 +65,9 @@ Currently, the following cities can be directly visualized in the GUI without cr
 However, other cities of interest can be reconstructed by downloading the GeoJSON data information of the desired area through [Overpass Turbo](https://overpass-turbo.eu) and positioning the file(s) in a dedicated folder at the path `city/cities_geojson/`
 
 #### Some results
-![Example materials: matte, plastic, metal, glass, subsurface, normal mapping](images/features1.png)
+Amsterdam
 ![Amsterdam](images/amsterdam.jpg)
+![test image size]<img src="images/amsterdam.jpg" width="400" height="600">
 
 Berlin 
 (images/berlin.jpg)
