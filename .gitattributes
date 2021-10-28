@@ -1,2 +1,47 @@
-libs/** linguist-documentation=false
-libs/** linguist-vendored
+###############################################################################
+# Auto detect text files and perform LF normalization
+###############################################################################
+* text=auto
+
+###############################################################################
+# Explicitly declare CRLF normalization for the following files
+###############################################################################
+
+# Header Files
+*.h                                         text eol=crlf
+*.hpp                                       text eol=crlf
+*.h++                                       text eol=crlf
+*.inc                                       text eol=crlf
+*.inl                                       text eol=crlf
+
+# Source Files
+*.c                                         text eol=crlf
+*.cc                                        text eol=crlf
+*.cpp                                       text eol=crlf
+*.c++                                       text eol=crlf
+
+# Resource Files
+*.rc                                        text eol=crlf
+
+###############################################################################
+# Explicitly declare programming languages for the following files
+###############################################################################
+
+# Header Files
+*.h                                         linguist-language=C++
+*.hpp                                       linguist-language=C++
+*.h++                                       linguist-language=C++
+*.inc                                       linguist-language=C++
+*.inl                                       linguist-language=C++
+
+# Source Files
+*.c                                         linguist-language=C
+*.cc                                        linguist-language=C++
+*.cpp                                       linguist-language=C++
+*.c++                                       linguist-language=C++
+
+###############################################################################
+# Explicitly declare documentation for the following files
+###############################################################################
+
+apps/**                                  linguist-documentation=false
