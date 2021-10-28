@@ -77,10 +77,11 @@ London  <br />
 Rome  <br />
 <img src="images/rome_all_morning.jpg" width="455" height="381">
 
-##Citation
+## Citation
 If you are using this code in your project or research, please cite:
 
-`@inproceedings {10.2312:stag.20211474,
+```
+@inproceedings {10.2312:stag.20211474,
 booktitle = {Smart Tools and Apps for Graphics - Eurographics Italian Chapter Conference},
 editor = {Frosini, Patrizio and Giorgi, Daniela and Melzi, Simone and Rodolà, Emanuele},
 title = {{3D City Reconstruction from OpenStreetMap Data}},
@@ -90,9 +91,10 @@ publisher = {The Eurographics Association},
 ISSN = {2617-4855},
 ISBN = {978-3-03868-165-6},
 DOI = {10.2312/stag.20211474}
-}`
+}
+```
 
-##Authors
+## Authors
 Sara Kaszuba & Fabio Pellacini
 
 
