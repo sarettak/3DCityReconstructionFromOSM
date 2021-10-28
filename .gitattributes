@@ -1,2 +1,2 @@
-app/* linguist-documentation=false
-app/* linguist-vendored
+libs/yocto/* linguist-documentation=false
+libs/yocto/* linguist-vendored
