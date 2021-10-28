@@ -1,2 +1,2 @@
-libs/yocto/* linguist-documentation=false
-libs/yocto/* linguist-vendored
+libs/** linguist-documentation=false
+libs/** linguist-vendored
