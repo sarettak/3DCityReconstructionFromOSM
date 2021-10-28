@@ -44,4 +44,4 @@
 # Explicitly declare documentation for the following files
 ###############################################################################
 
-apps/**                                  linguist-documentation=false
+libs/**                                  linguist-documentation=false
